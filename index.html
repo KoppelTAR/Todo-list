@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+</head>
+<body>
+    
+
+    <P>Todo list</P>
+
+    <label for="taskName">Enter task</label>
+    <input type="text" id="taskName" name="taskName">
+
+    <label for="taskDate">Enter task due date</label>
+    <input type="date" id="taskDate" name="taskDate">
+    <br>
+
+    <input type="submit" value="Submit" id="submit">
+
+    <br>
+    
+    <P>List of tasks todo</P>
+
+
+    <ul id="taskList">
+
+
+    </ul>
+    
+
+    <script src="javascript/app.js"></script>
+
+    <script>
+    function struck(ele) {
+        ele.style = "text-decoration:line-through; list-style-type:none";
+    }</script>
+</body>
+</html>
