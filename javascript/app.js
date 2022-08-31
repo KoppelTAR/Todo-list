@@ -8,6 +8,8 @@ submit.addEventListener('click',saveTask);
 function saveTask() {
 var node = document.createElement('li');
 node.setAttribute("onclick","struck(this)")
+node.setAttribute("class","fs-5")
+
 
 var name = document.getElementById('taskName').value;
 var date = document.getElementById('taskDate').value;
