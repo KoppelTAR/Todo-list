@@ -14,14 +14,9 @@ var date = document.getElementById('taskDate').value;
 
 
 node.appendChild(document.createTextNode(name +" " + date));
-
-node.addEventListener("click", crossTaskOff)
  
 document.querySelector('ul').appendChild(node);
 }
 
-function crossTaskOff() {
-    console.log("test");
-}
 
 
